@@ -37,7 +37,7 @@ function gotResult(error, results) {
         if (results[0].label == "fist") {
             document.getElementById("update_emoji1").innerHTML = "&#129308;";
         }
-        if (results[0].label == "rock") {
+        if (results[0].label == "shaka") {
             document.getElementById("update_emoji1").innerHTML = "&#129304;";
         }
         if (results[0].label == "highfive") {
